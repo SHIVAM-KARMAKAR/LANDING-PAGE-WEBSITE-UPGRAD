@@ -1,0 +1,163 @@
+.to-top{
+    background-color: white;
+    position: fixed;
+    bottom: 16px;
+    left:32px;
+    width:50px;
+    height:50px;
+    border:2px solid orangered;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:orangered;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active{
+    bottom:32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+
+
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    font-weight: bolder;
+    color: rgb(211, 31, 31);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+#navbarDropdownMenuLink{
+    font-size: 15px;
+    background-color: rgb(211, 31, 31);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.section2 {
+    background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/new-images%2Fprogram-backgrounds%2Funiversity/ab_data__1648453133967.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2 .container{
+    
+    padding: 15px;
+    color:aliceblue;
+}
+.section2 .container a{
+    display: inline;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.section2 .container a:hover{
+    text-decoration: underline;
+}
+.section2 .container .callback{
+    padding:10px;
+}
+.section2 .container .row{
+   
+    margin-left:2px;
+    background-color:white;
+    padding:15px;
+    color: black;
+}
+.section3{
+    margin:10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+.section3 .container .card {
+    margin-bottom:15px;
+}
+
+.section3 .container .card img{
+    
+    width:22rem;
+}
+
+.section3 .container .card img:hover{
+    width:22.2rem;
+    
+}
+form{
+    border:2px solid black;
+    padding:15px;
+}
+form h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section4{
+    background-image:linear-gradient(blue,white);
+    padding-top:65px;
+    color:white;
+    
+}
+.section4 .container .row{
+    margin-top:20px;
+}
+.section4 .container .row .col .card{
+    
+    border: 3px solid rgb(96, 89, 89);
+    color:black;
+}
+
+.section4 .container .row .col .card img{
+    height:70px;
+    width:75px;
+    margin:20px;
+    border:2px solid red;
+    border-radius: 50%;
+}
+.section5{
+    margin-top:250px;
+    padding-top: 20px;
+    background-color:rgb(225, 222, 222);
+}
+.section5 .container .nav-tabs .nav-item a{
+    color:black;
+    font-size: 18px;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tab-content .tab-pane .row .col li:before{
+    content:"\2705";
+}
+.tab-content .tab-pane .row .col li{
+    list-style: none;
+    font-size: 20px;
+}
+.section6{
+    font-weight: bold;
+    margin-top:40px;
+}
+.section6 .container h1{
+    font-size:50px;
+}
+.section7{
+    margin-top:40px;
+    padding-top:20px;
+    background-color:antiquewhite;
+}
+.section7 .container img{
+    width:100%;
+}
+.section7 .container p,li{
+    font-size: 20px;
+}
